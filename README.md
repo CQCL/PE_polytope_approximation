@@ -6,7 +6,7 @@ This project is created by Quantinuum's Quantum Cryptography team. The codes are
 
 The codes require implementation of convex optimisation with semidefinite constraints, for which we use 'cvxpy' library with default solver 'MOSEK' (only free for academic purposes), and vertex & facet enumeration algorithms, for which we use 'pycddlib' library.
 
-The project includes codes for two specific DI setups: 1) CHSH setting - two parties with two dichotomic measurements on each party, and 2) Mermin setting - three parties with two dichotomic measurements on each party.
+The project includes codes for two specific DI setups: 1) global randomness in CHSH setting (i.e., two parties with two dichotomic measurements on each party), and 2) two-output randomness in Mermin setting (i.e., three parties with two dichotomic measurements on each party).
 
 The primary object of our codes is a class called 'PE_analysis' in the file 'tri-or-bi_PE_polytope.py'. An instance of this class can be created with arguments (typical correlation, input distribution, the choice of NPA hierarchy level, input distribution polytope). 'Typical correlation' represents the typical behaviour of the devices which can be obtained in the characterisation stage before actual runs of the protocol - for which the entropy witness will be obtained/optimised. 'Input distribution' describes the probability distribution of the input entropy source. 'The choice of NPA hierarchy level' is the NPA level that one wants to use in the anlysis. 'Input distribution polytope' describes the set (should be a polytope) of allowed input distributions if the input distribution is not fixed ('None' if the input distribution is fixed and independent).
 
