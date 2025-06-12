@@ -26,4 +26,4 @@ When finding optimal PEFs with fixed powers in (b) in the CHSH setting, one can 
 The NPA relaxations are implemented in the file 'NPA_lib.py' written by Hyejung H. Jee.
 
 [1] E. Knill et al., Phys. Rev. R., 2(3):033465, (2020), Y. Zhang et al., Phys. Rev. A, 98(4):040304, (2018).   
-[2] Our paper - to be published.
+[2] Hyejung H. Jee et al., arXiv:2506.09555 (2025).
